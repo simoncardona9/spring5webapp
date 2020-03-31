@@ -23,7 +23,7 @@ public class Publisher {
     private String zip;
 
     @OneToMany
-    @JoinColumn(name = "publishe_id")
+    @JoinColumn(name = "publisher_id")
     private Set<Book> books = new HashSet<>();
 
     public Publisher() {
